@@ -53,9 +53,49 @@ Firefox有多种版本，首先我们需要选择一款适合自己的版本。
 
 所以说，中国版Firefox并不是个人的二次修改版，而是属于Mozilla官方的产品，不必担心某些安全问题。
 
+### 中国版Firefox的缺点
+
+中国版Firefox缺点并不大，据笔者所知，最明显的一点莫过于没有64位的Firefox。如果你选择中国版Firefox，就只能用32位版本的Firefox了。不过这影响并不大，32位的中国版Firefox可以在64位的系统中正常工作。
+
+还有一些其他的小瑕疵，比如到双11购物狂欢节的时候可能会强制添加一个某宝的书签。
+
 ### 中国版Firefox的优点
 
-谋智火狐为了帮助Firefox适应中国环境对Firefox做了很多人性化的修改，据笔者所知，最明显的一点莫过于“同步”功能。由于中国大陆独有的防火墙，在访问海外IP时会有诸多问题。因此，谋智公司在国内搭建了一个用于同步的服务器来解决这个问题。
+谋智火狐为了帮助Firefox适应中国环境对Firefox做了很多人性化的修改，如中国版特有的许多插件。据笔者所知，最明显的一点莫过于“同步”功能：由于中国大陆独有的防火墙，在访问海外IP时会有诸多问题。因此，谋智公司在国内搭建了一个用于同步的服务器来解决这个问题，并且你也可以随时切换成国际版的同步。
+
+关于缺点，64版本的问题影响也是比较小的，32位的Firefox几乎不会遇到性能的瓶颈，而强制添加的情况也很少出现（一年1次左右），并不会影响正常的使用。
+
+### 关于选择的建议
+
+如果在语言方面没有什么障碍的话，建议选择中国版的Firefox。对比那些微不足道的中国版Firefox的缺点，谋智中国专为国内上网环境订制的Firefox各种便利明显要更为实惠一些。
+
+## 关于ESR版（延长支持版）
+
+Firefox一共有3钟更新通道，分别是：
+
+1. 开发版（更新最快，最不稳定）
+2. 正式版
+3. 稳定版（更新最慢，最稳当）
+
+其中非开发人员不建议选择开发版的Firefox，更新频率太快且不稳定。而正式版（又称曙光版）则是Mozilla默认提供下载的版本，也是本文推荐下载的版本，但是如果在你的工作或生活中浏览器占据一个非常重要的位置，那么你可以选择ESR版。
+
+> 延长支持版本（Extended Support Release, 简称“ESR”）是 Mozilla 专门为那些无法或不愿每隔六周就升级一次的企业打造。Firefox ESR 版的升级周期为 42 周，而普通 Firefox 的升级周期为 6 周。
+> —— 引用自[Firefox 火狐浏览器 延长支持版](http://www.firefox.com.cn/download/#download-esr)
+
+- 中国版ESR：http://www.firefox.com.cn/download/#download-esr
+- 国际版ESR：https://www.mozilla.org/en-US/firefox/organizations/all/
+
+## 针对 XP SP2 及更早版本的用户
+
+针对 Windows XP SP2 及更早版本的用户，最新版本的Firefox可能无法在你的电脑上正常工作，在各个下载页面可以找到Mozilla针对 Windows XP SP2 及更早版本用户推出的Firefox。
+
+请留意下载页面的文字：
+
+![中国版Firefox低版本入口](img/for-xpuser-firefoxdownload-china.png)
+
+## 其他资料
+
+- 国际版Firefox大全（Mozilla FTP）：http://ftp.mozilla.org/pub/firefox/releases/
 
 # 配置篇
 
